@@ -1,0 +1,57 @@
+@import url(./navbar.css);
+@import url(./body.css);
+@import url(./heading.css);
+@import url(./relevant.css);
+@import url(./subnav.css);
+
+*{font-family: tajawal;}
+html{scroll-behavior: smooth;}
+body{margin: 0px; color: rgb(34, 34, 34); margin-bottom: 1in;}
+
+.jbtn{
+    border: none;
+    outline: none;
+    min-width: 0.5in;
+    height: 0.4in;
+    padding: 5px;
+    padding-left: 10px; padding-right: 10px;
+    border-radius: 20px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+.GitHub::before{
+    content: '|';
+    font-family: sporto1;
+    margin-right: 5px;
+    font-size: 150%;
+    float: left;
+}
+.GitHub{
+    background-color: gray;
+}
+.font-bold{
+    font-weight: bold;
+}
+.bg-sblue{
+    background-color: steelblue;
+    color: white;
+}
+.bg-slblue{
+    background-color: slateblue;
+    color: white;
+}
+.bg-crimson{
+    background-color: crimson;
+    color: white;
+}
+.bg-tomato{
+    background-color: tomato;
+    color: white;
+}
+.font-sblue{
+    color: steelblue;
+}
+.font-crimson{
+    color: crimson;
+}
