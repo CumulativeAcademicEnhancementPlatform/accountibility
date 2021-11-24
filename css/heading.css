@@ -1,0 +1,15 @@
+#heading{
+    width: 100%;
+    height: 0.1in;
+    display: grid;
+    align-items: center;
+    overflow: hidden;
+    background-color: crimson;
+}
+
+#heading img{
+    filter: opacity(70%);
+    margin-top: -4in;
+    width: 100%;
+    display: none;
+}

@@ -1,0 +1,33 @@
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.flex-ch10in{
+    flex-basis: 8.5in;
+    min-height: 4in;
+    padding-left: 1in;
+}
+.flex-ch1{
+    flex: 1;
+    min-height: 4in;
+}
+
+.sec-title{
+    display: block;
+    font-weight: bold;
+    font-size: 20px;
+}
+.p{
+    margin-left: 0.5in;
+}
+
+
+@media screen and (max-width: 600px) {
+    .flex-ch10in{
+        padding-left: 2.5%;
+        flex-basis: 95%;
+    }
+    .p{
+        margin-left: 0.1in;
+    }
+}

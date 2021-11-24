@@ -1,0 +1,27 @@
+#subnav{
+    display: block;
+    width: calc(100% - 20px);
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 10px;
+}
+#subnav .snitem{
+    display: inline-block;
+    color: steelblue;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#subnav .snitem::after{
+    content: '|';
+    margin-left: 0.1in;
+    margin-right: 0.1in;
+    color: crimson;
+    font-weight: bold;
+}
+
+#subnav .snitem:hover{
+    color: crimson;
+    transition: 0.5s;
+}
