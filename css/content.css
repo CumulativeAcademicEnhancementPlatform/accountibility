@@ -3,7 +3,7 @@
 @import url(./heading.css);
 @import url(./relevant.css);
 @import url(./subnav.css);
-
+@import url(./hiring.css);
 *{font-family: tajawal;}
 html{scroll-behavior: smooth;}
 body{margin: 0px; color: rgb(34, 34, 34); margin-bottom: 1in;}
@@ -20,6 +20,10 @@ body{margin: 0px; color: rgb(34, 34, 34); margin-bottom: 1in;}
     cursor: pointer;
     margin-top: 5px;
 }
+.smallbtn{
+    height: 0.3in;
+    border-radius: 4px;
+}
 .GitHub::before{
     content: '|';
     font-family: sporto1;
@@ -32,6 +36,13 @@ body{margin: 0px; color: rgb(34, 34, 34); margin-bottom: 1in;}
 }
 .font-bold{
     font-weight: bold;
+}
+.font-lightbink{
+    color: pink;
+}
+.bg-pink{
+    background-color: pink;
+    color: rgb(34, 34, 34);
 }
 .bg-sblue{
     background-color: steelblue;
